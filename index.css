@@ -1,0 +1,96 @@
+/*font families
+
+font-family: 'Bangers', cursive;
+font-family: 'Barlow', sans-serif;
+font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Boogaloo', cursive;
+font-family: 'Bowlby One SC', cursive;
+font-family: 'Comic Neue', cursive;
+font-family: 'Katibeh', cursive;
+font-family: 'Lemon', cursive;
+font-family: 'Racing Sans One', cursive;
+font-family: 'Shrikhand', cursive;
+font-family: 'Sorts Mill Goudy', serif;
+
+*/
+
+/*CSS Reset*/
+* {
+	padding: 0rem;
+	margin: 0rem;
+	box-sizing: border-box;
+}
+
+/*fonts*/
+body {
+	
+	font-family: 'Barlow', sans-serif;
+
+}
+
+h1, h2, h3{
+	font-family: 'Racing Sans One', cursive;
+}
+
+h1 span {
+	color: sandybrown;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.navbar-brand {
+	font-size: 3rem;
+	font-family: 'Shrikhand', cursive;
+	padding-bottom: 0;
+
+}
+
+#landing-section {
+	height: 90vh;
+	width: 100vw;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(
+		'https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260'
+		/*'./images/landing.jpg'*/
+		);
+	background-size: cover;
+	background-position: left;
+	background-repeat: no-repeat;
+	color: white;
+	
+}
+
+
+#landing-section > div > h1 {
+	font-family: 'Racing Sans One', cursive;
+	font-size: 4rem;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+#comic-sans {
+	/*font-family: 'Comic Neue', cursive;*/
+	/*font-family: 'Racing Sans One', cursive;*/
+	/*text-decoration: line-through 3px;*/
+	/*color: powderblue;*/
+}
+
+#intro-section img {
+
+}
+
+#intro-section p span {
+	font-weight: bold;
+	color: sandybrown;
+}
+
+#project-section {
+	background-color: #EFFAFB;
+}
+
+footer a {
+	margin-left: 3rem;
+	margin-right: 3rem;
+}
