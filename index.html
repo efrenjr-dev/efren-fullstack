@@ -28,7 +28,7 @@
 	        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="#intro-section">About Us</a>
+	        <a class="nav-link" href="#intro-section">Who We Are</a>
 	      </li>
 	      <li class="nav-item">
 	        <a class="nav-link" href="#project-section">Projects</a>
@@ -59,110 +59,172 @@
 	<!-- start of landing section -->
 	<div id="landing-section" class="d-flex flex-column justify-content-center p-5">
 		<div class="m-auto">
-			<h1>Friends don't let friends use <span id="comic-sans">Comic Sans</span></h1>
-			
+			<h1>Friends don't let friends use <a href="#intro-section" id="comic-sans">Comic Sans</a> ...</h1>
+		</div>
+		<div class="text-center">
+			<a href="#intro-section"><p class="btn btn-lg btn-light">Let me help you <i class="fas fa-caret-down"></i></p></a>
 		</div>
 		
 	</div>
 	<!-- end of landing section -->
 	<!-- start of introduction -->
 	<div id="intro-section" class="container text-center my-5">
-		<img src="./images/profile.jpg" class="rounded-circle w-25">
-		<h1>Hi, I'm <span>Efren</span>!</h1>
+		<img src="./images/profile.jpg" class="rounded-circle mt-5">
+		<h1 class="my-4">Hi, I'm <span>Efren</span>!</h1>
 		<p>I'm a Full-Stack Web Developer equipped to provide smart solutions for the specific needs of your business. I'm a partner you can trust to design the face of your organization over the web.</p>
-		<p>A community image that is clear, lasts, and most especially -- <span>yours</span>!</p>
+		<p>A community image that is clear, one that lasts, and most especially -- <span>yours</span>!</p>
+		<div class="d-flex justify-content-center">
+			<a href="https://www.facebook.com/efrenrodriguezjr/" target="_blank" class="mx-4">
+				<i class="fab fa-facebook-square"></i>
+			</a>
+			<a href="https://www.linkedin.com/in/efren-jr-rodriguez
+" target="_blank" class="mx-4">
+				<i class="fab fa-linkedin"></i>
+			</a>
+			<a href="https://gitlab.com/efrenjr-dev" target="_blank" class="mx-4">
+				<i class="fab fa-gitlab"></i>
+			</a>
+			<a href="https://www.instagram.com/what.the.ef.g/"" target="_blank" class="mx-4">
+				<i class="fab fa-instagram"></i>
+			</a>
+		</div>
 	</div>
 	<!-- end of introduction -->
 	<!-- start of projects -->
-	<div id="project-section" class="text-center p-5">
-		<h3 class="text-center pb-5">Projects I've worked on</h3>
-		<div class="row">
-			<div class="col-md-6">
-				<h4>Web API (Ecommerce)</h4>
-				<p>To be filled.</p>
+	<div id="project-section" class="py-5 px-5 text-light">
+		<div class="container">
+			<h3 class="text-center pb-5">Projects I've worked on</h3>
+			<div class="row">
+				<div class="col-md-6">
+					<h4>Ecommerce (MERN Stack)</h4>
+					<p>Developed an e-commerce web-app built with MERN stack (MongoDB, Express.js, React.js and Node.js) as a capstone project at the Zuitt Coding Bootcamp. This is a completely functional web-app where one can visit, register, purchase and make a transaction with demo products.</p>
+					<p>You may review my code on my <a href="https://gitlab.com/efrenjr-dev" target="_blank" class="text-light">Gitlab page</a>.</p>
+					<div class="d-flex flex-row flex-wrap justify-content-start pt-2 mb-4" id="mern-icon">
+						<img src="./images/logo-mongodb.png" class="img-fluid">
+						<img src="./images/logo-expressjs.png" class="img-fluid">
+						<img src="./images/logo-react.png" class="img-fluid">
+						<img src="./images/logo-nodejs.png" class="img-fluid rounded-circle" id="node-img">
+					</div>
+				</div>
+				<div class="col-md-6">
+					<img src="https://images.pexels.com/photos/6969649/pexels-photo-6969649.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-fluid">
+					<!-- <img src="https://images.pexels.com/photos/4482900/pexels-photo-4482900.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" class="img-fluid"> -->
+				</div>
 			</div>
-			<div class="col-md-6">
-				<img src="https://images.pexels.com/photos/6613710/pexels-photo-6613710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-fluid">
+			<div class="row mt-5">
+				<div class="col-md-6 order-md-2">
+					<h4>Imus Agricultural Portal</h4>
+					<p>An Agricultural portal developed in PHP and SQL for the benefit of the agricultural sector of Imus, Cavite including farmers, agricultural technologists, market co-operatives, and traders. Manages the city’s distribution of free crop seeds, fertilizer, and livestock medicine. Informs live gate prices for selected crops. Features SMS capabilities to reach technology-challenged farmers. The project received the <span>Outstanding Contribution to the Department Award</span> and <span>Social Relevance Award</span> from the College of Computer Studies at De La Salle University - Manila.</p>
+					<div class="d-flex flex-row flex-wrap justify-content-start pt-2 mb-4" id="imus-icon">
+						<i class="fab fa-php"></i>
+						<i class="fas fa-database"></i>
+					</div>
+				</div>
+				<div class="col-md-6 order-md-1">
+					<img src="https://images.pexels.com/photos/2804327/pexels-photo-2804327.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" class="img-fluid">
+					<!-- <img src="https://images.pexels.com/photos/7191164/pexels-photo-7191164.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-fluid"> -->
+					<!-- <img src="https://images.pexels.com/photos/5935744/pexels-photo-5935744.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-fluid"> -->
+					<!-- <img src="https://images.pexels.com/photos/6347707/pexels-photo-6347707.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-fluid"> -->
+				</div>
 			</div>
 		</div>
-		<div class="row mt-5">
-			<div class="col-md-6 order-md-2">
-				<h4>React Frontend (Ecommerce)</h4>
-				<p>To be filled.</p>
-			</div>
-			<div class="col-md-6 order-md-1">
-				<img src="https://images.pexels.com/photos/6613710/pexels-photo-6613710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-fluid">
-			</div>
-		</div>
-
 	</div>
 	<!-- end of projects -->
 	<!-- start of tools -->
-	<div class="container mt-5" id="tools-section">
+	<div class="container pt-3" id="tools-section">
 		<h3 class="text-center mt-5">Core Tools</h3>
 		<div class="d-flex flex-row justify-content-center pt-2">
-			<img src="./images/logo-html5.png" class="img-fluid" style="width:80px;">
+			<img src="./images/logo-html5.png" class="img-fluid">
 		</div>
 		<div class="d-flex flex-row justify-content-center">
-			<img src="./images/logo-css3.png" class="img-fluid" style="width:80px;">
-			<img src="./images/logo-javascript.png" class="img-fluid" style="width:80px;">
+			<img src="./images/logo-css3.png" class="img-fluid">
+			<img src="./images/logo-javascript.png" class="img-fluid">
 		</div>
 		<!-- Other Tools -->
 		<h3 class="text-center mt-5">Other Tools</h3>
 		<div class="d-flex flex-row flex-wrap justify-content-center  pt-2">
-			<img src="./images/logo-mongodb.png" class="img-fluid" style="width:80px;">
-			<img src="./images/logo-nodejs.png" class="img-fluid" style="width:80px;">
-			<img src="./images/logo-expressjs.png" class="img-fluid" style="width:80px;">
-			<img src="./images/logo-react.png" class="img-fluid" style="width:80px;">
-			<img src="./images/logo-heroku.png" class="img-fluid" style="width:80px;">
+			<img src="./images/logo-mongodb.png" class="img-fluid">
+			<img src="./images/logo-nodejs.png" class="img-fluid">
+			<img src="./images/logo-expressjs.png" class="img-fluid">
+			<img src="./images/logo-react.png" class="img-fluid">
+			<img src="./images/logo-heroku.png" class="img-fluid">
 			<img src="./images/logo-git.png" class="img-fluid" style="width:80px;">
-			<img src="./images/logo-sublime-text-3.png" class="img-fluid" style="width:80px;">
-			<img src="./images/logo-postman.png" class="img-fluid" style="width:80px;">
-			<img src="./images/logo-gitlab-ci-cd.png" class="img-fluid" style="width:80px;">
+			<img src="./images/logo-sublime-text-3.png" class="img-fluid">
+			<img src="./images/logo-postman.png" class="img-fluid">
+			<img src="./images/logo-gitlab-ci-cd.png" class="img-fluid">
 		</div>
 	</div>
-	<!-- end of contact -->
+	<!-- end of other tools -->
 	<!-- start of contact -->
-	<div id="contact-section" class="row mt-5 justify-content-center">
-		<div class="d-col-md-9">
-			<h3 class="text-center mb-3">Get in touch</h3>
-			<form>
-				<div class="form-group">
-					<label for="email-input">Email Address:</label>
-					<input type="email" name="emailInput" id="email-input" placeholder="email@example.com" class="form-control">
+	<div id="contact-section" class="text-black">
+		<div class="container pb-5">
+			<div class=" row mt-5">
+				<div class="col-md-6 p-4">
+					<h3 class="text-center mb-3">Meet up</h3>
+					<iframe width="500" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=olaya,%20riyadh&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
 				</div>
-				<div class="form-group">
-					<label for="category-select"">Category:</label>
-					<select class="form-control" id=category-select" name="categorySelect">
-						<option>Web Development and Design</option>
-						<option>Content Creation</option>
-						<option>Consultation</option>
-						<option>General Inquiry</option>
-					</select> 
+				<div class="col-md-6 p-4">
+					<h3 class="text-center mb-3">Get in touch</h3>
+					<form>
+						<div class="form-group">
+							<label for="email-input">Email Address:</label>
+							<input type="email" name="emailInput" id="email-input" placeholder="email@example.com" class="form-control">
+						</div>
+						<div class="form-group">
+							<label for="category-select"">Category:</label>
+							<select class="form-control" id=category-select" name="categorySelect">
+								<option>Web Development and Design</option>
+								<option>Content Creation</option>
+								<option>Consultation</option>
+								<option>General Inquiry</option>
+							</select> 
+						</div>
+						<div class="form-group">
+							<label for="message-input">Message:</label>
+							<textarea id="message-input" name="messageInput" class="form-control" rows="4"></textarea>
+						</div>
+						<button type="submit" class="btn btn-secondary">Submit</button>
+						<button type="reset" class="btn btn-light">Reset</button>
+					</form>
 				</div>
-				<div class="form-group">
-					<label for="message-input">Message:</label>
-					<textarea id="message-input" name="messageInput" class="form-control" rows="4"></textarea>
-				</div>
-				<button type="submit" class="btn btn-warning">Submit</button>
-				<button type="reset" class="btn btn-secondary">Reset</button>
-			</form>
+			</div>
 		</div>
 	</div>
 	<!-- end of contact -->
 	<!-- start of footer -->
-	<footer class="mt-5 p-3 bg-dark text-white">
-		<div class="d-flex flex-column">
-			<div class="col-12">For educational purposes only. &copy; Efren Rodriguez Jr. 2021</div>
-			<div class="col-md-6">
-				<a href="#">Top of Page</a>|<a href="#">Home</a>
+	<footer class="pt-3 bg-dark text-secondary">
+		<div class="d-flex flex-column align-items-center">
+			<div div class="p-3">
+				<a href="#" class="btn btn-outline-light btn-sm mb-4">Go to Top of Page <i class="fas fa-level-up-alt"></i></a>
 			</div>
+			<div class="d-flex justify-content-center">
+			<a href="https://www.facebook.com/efrenrodriguezjr/" target="_blank" class="mx-4">
+				<i class="fab fa-facebook-square"></i>
+			</a>
+			<a href="https://www.linkedin.com/in/efren-jr-rodriguez
+" target="_blank" class="mx-4">
+				<i class="fab fa-linkedin"></i>
+			</a>
+			<a href="https://gitlab.com/efrenjr-dev" target="_blank" class="mx-4">
+				<i class="fab fa-gitlab"></i>
+			</a>
+			<a href="https://www.instagram.com/what.the.ef.g/"" target="_blank" class="mx-4">
+				<i class="fab fa-instagram"></i>
+			</a>
 		</div>
-	
-			
-		</div>
+			<div class="p-3 text-center">
+				This website is for educational purposes only.
+			</div>
+			<div id="logo">
+				ERJ
+			</div>
+			<div class="pb-1">
+				&copy; Efren Rodriguez Jr. 2021
+			</div>
+		</div>	
 	</footer>
 	<!-- end of footer -->
+	
 	<!-- javascript/dependencies -->
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
