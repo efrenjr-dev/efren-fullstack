@@ -2,17 +2,17 @@
 
 /*font families
 
-font-family: 'Bangers', cursive;
+font-family: 'Bangers', sans-serif;
 font-family: 'Barlow', sans-serif;
 font-family: 'Barlow Condensed', sans-serif;
-font-family: 'Bebas Neue', cursive;
-font-family: 'Boogaloo', cursive;
-font-family: 'Bowlby One SC', cursive;
-font-family: 'Comic Neue', cursive;
-font-family: 'Katibeh', cursive;
-font-family: 'Lemon', cursive;
-font-family: 'Racing Sans One', cursive;
-font-family: 'Shrikhand', cursive;
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Boogaloo', sans-serif;
+font-family: 'Bowlby One SC', sans-serif;
+font-family: 'Comic Neue', sans-serif;
+font-family: 'Katibeh', sans-serif;
+font-family: 'Lemon', sans-serif;
+font-family: 'Racing Sans One', sans-serif;
+font-family: 'Shrikhand', sans-serif;
 font-family: 'Sorts Mill Goudy', serif;
 
 */
@@ -32,7 +32,7 @@ body {
 }
 
 h1, h2{
-	font-family: 'Racing Sans One', cursive;
+	font-family: 'Racing Sans One', sans-serif;
 }
 
 h4 {
@@ -40,8 +40,8 @@ h4 {
 }
 
 h3{
-	/*font-family: 'Racing Sans One', cursive;*/
-	font-family: 'Bebas Neue', cursive;
+	/*font-family: 'Racing Sans One', sans-serif;*/
+	font-family: 'Bebas Neue', sans-serif;
 	font-size: 2rem;
 }
 
@@ -54,7 +54,7 @@ h1 a {
 
 .navbar-brand {
 	font-size: 3rem;
-	font-family: 'Shrikhand', cursive;
+	font-family: 'Shrikhand', sans-serif;
 	padding-bottom: 0;
 
 }
@@ -75,7 +75,7 @@ h1 a {
 
 
 #landing-section > div > h1 {
-	font-family: 'Racing Sans One', cursive;
+	font-family: 'Racing Sans One', sans-serif;
 	font-size: 4rem;
 	padding-bottom: 0;
 	margin-bottom: 0;
@@ -89,19 +89,19 @@ h1 a {
 #landing-section h1 a:hover {
 	/*color: white;*/
 	text-decoration: line-through;
-	font-family: 'Comic Neue', cursive;
+	font-family: 'Comic Neue', sans-serif;
 }
 
 #landing-section a .btn {
 	/*color: white;*/
-	/*font-family: 'Bebas Neue', cursive;*/
+	/*font-family: 'Bebas Neue', sans-serif;*/
 	/*font-family: 'Sorts Mill Goudy', serif;*/
-	/*font-family: 'Racing Sans One', cursive;*/
+	/*font-family: 'Racing Sans One', sans-serif;*/
 }
 
 #comic-sans {
-	/*font-family: 'Comic Neue', cursive;*/
-	/*font-family: 'Racing Sans One', cursive;*/
+	/*font-family: 'Comic Neue', sans-serif;*/
+	/*font-family: 'Racing Sans One', sans-serif;*/
 	/*text-decoration: line-through 3px;*/
 	/*color: powderblue;*/
 }
@@ -133,8 +133,8 @@ h1 a {
 
 
 #project-section h3{
-	/*font-family: 'Racing Sans One', cursive;*/
-	font-family: 'Bebas Neue', cursive;
+	/*font-family: 'Racing Sans One', sans-serif;*/
+	font-family: 'Bebas Neue', sans-serif;
 	font-size: 3rem;
 }
 
@@ -181,7 +181,7 @@ footer {
 }
 
 #logo {
-	font-family: 'Shrikhand', cursive;
+	font-family: 'Shrikhand', sans-serif;
 	font-size: 2rem;
 }
 
