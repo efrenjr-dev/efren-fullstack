@@ -6,4 +6,5 @@ This static website is for my personal online portfolio and will be updated with
 
 ### Features
 * Responsive Web Design
-* Bootstrap
+* Bootstrap 
+
