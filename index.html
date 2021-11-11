@@ -21,6 +21,8 @@
       href="https://fonts.googleapis.com/css2?family=Bangers&family=Barlow&family=Barlow+Condensed:wght@300;400&family=Bebas+Neue&family=Boogaloo&family=Bowlby+One+SC&family=Comic+Neue:ital@1&family=Katibeh&family=Lemon&family=Racing+Sans+One&family=Shrikhand&family=Sorts+Mill+Goudy&display=swap"
       rel="stylesheet"
     />
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- external css -->
     <link rel="stylesheet" type="text/css" href="./index.css" />
   </head>
@@ -90,7 +92,7 @@
         </div>
         <div class="text-center mt-3">
           <a href="#intro-section"
-            ><p class="btn btn-lg btn-light">
+            ><p class="btn btn-lg btn-light" data-aos="fade-up" data-aos-delay="1500">
               Let me help you <i class="fas fa-caret-down"></i></p
           ></a>
         </div>
@@ -104,7 +106,7 @@
         </div>
         <div class="text-center mt-3">
           <a href="#intro-section"
-            ><p class="btn btn-lg btn-light">
+            ><p class="btn btn-lg btn-light" data-aos="fade-up" data-aos-delay="1500">
               Let me help you <i class="fas fa-caret-down"></i></p
           ></a>
         </div>
@@ -114,18 +116,18 @@
     <!-- end of landing section -->
     <!-- start of introduction -->
     <div id="intro-section" class="container text-center py-5 my-5">
-      <img src="./images/profile.jpg" class="rounded-circle mt-5" />
-      <h1 class="my-4">Hi, I'm <span>Efren</span>!</h1>
-      <p>
+      <img src="./images/profile.jpg" class="rounded-circle mt-5" data-aos="fade-up"/>
+      <h1 class="my-4" data-aos="fade-up">Hi, I'm <span>Efren</span>!</h1>
+      <p data-aos="fade-up" data-aos-delay="">
         I'm a Full-Stack Web Developer equipped to provide smart solutions for
         the specific needs of your business. I'm a partner you can trust to
         design the face of your organization over the web.
       </p>
-      <p>
+      <p data-aos="fade-up" data-aos-delay="">
         A community image that is clear, one that lasts, and most especially --
         <span>yours</span>!
       </p>
-      <div class="pt-3 d-flex flex-row flex-wrap justify-content-center">
+      <div class="pt-3 d-flex flex-row flex-wrap justify-content-center" data-aos="fade-up" data-aos-delay="">
         <a
           href="https://twitter.com/efrenrodriguez"
           target="_blank"
@@ -158,14 +160,19 @@
           <i class="fab fa-instagram"></i>
         </a>
       </div>
+      <div data-aos="fade-up" data-aos-delay="">
+        <a target="_blank" href="https://www.dropbox.com/s/j8hhuadmyv5iw2k/Rodriguez%20Efren%20Jr%20%20D%20-%20CURRICULUM%20VITAE.pdf?dl=0" class="btn btn-secondary btn-sm mt-4"
+            >Download CV <i class="far fa-file"></i>
+          </a>
+      </div>
     </div>
     <!-- end of introduction -->
     <!-- start of projects -->
     <div id="project-section" class="py-5 my-5 text-light">
       <div class="container py-5">
-        <h3 class="text-center pb-5">Projects I've worked on</h3>
+        <h3 class="text-center pb-5" data-aos="fade-up">Projects I've worked on</h3>
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="fade-up">
             <h4>Checkpoint - ECommerce (MERN Stack)</h4>
             <p>
               Developed an e-commerce web-app built with MERN stack (MongoDB,
@@ -202,7 +209,7 @@
               />
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="fade-up">
             <a href="https://checkpoint.vercel.app" target="_blank">
               <img src="./images/checkpoint.JPG" class="img-fluid" />
             </a>
@@ -211,7 +218,7 @@
           </div>
         </div>
         <div class="row mt-5">
-          <div class="col-md-6 order-md-2">
+          <div class="col-md-6 order-md-2" data-aos="fade-up">
             <h4>Imus Agricultural Portal</h4>
             <p>
               An Agricultural portal developed in PHP and SQL for the benefit of
@@ -233,7 +240,7 @@
               <i class="fas fa-database"></i>
             </div>
           </div>
-          <div class="col-md-6 order-md-1">
+          <div class="col-md-6 order-md-1" data-aos="fade-up">
             <img
               src="https://images.pexels.com/photos/2804327/pexels-photo-2804327.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
               class="img-fluid"
@@ -248,15 +255,15 @@
     <!-- end of projects -->
     <!-- start of tools -->
     <div class="container py-5 my-5" id="tools-section">
-      <h3 class="text-center mt-5">Core Tools</h3>
-      <div class="d-flex flex-row justify-content-center pt-2">
+      <h3 class="text-center mt-5" data-aos="fade-up">Core Tools</h3>
+      <div class="d-flex flex-row justify-content-center pt-2" data-aos="fade-up">
         <img src="./images/logo-html5.png" class="img-fluid" />
         <img src="./images/logo-css3.png" class="img-fluid" />
         <img src="./images/logo-javascript.png" class="img-fluid" />
       </div>
       <!-- Other Tools -->
-      <h3 class="text-center mt-5">Other Tools</h3>
-      <div class="d-flex flex-row flex-wrap justify-content-center pt-2">
+      <h3 class="text-center mt-5" data-aos="fade-up">Other Tools</h3>
+      <div class="d-flex flex-row flex-wrap justify-content-center pt-2" data-aos="fade-up">
         <img src="./images/logo-mongodb.png" class="img-fluid" />
         <img src="./images/logo-nodejs.png" class="img-fluid" />
         <img src="./images/logo-expressjs.png" class="img-fluid" />
@@ -277,7 +284,7 @@
     <div id="contact-section" class="text-black py-5">
       <div class="container pb-5">
         <div class="row mt-5">
-          <div class="col-md-6 p-4">
+          <div class="col-md-6 p-4" data-aos="fade-up">
             <h3 class="text-center mb-3">Find Me</h3>
             <iframe
               width="500"
@@ -290,7 +297,7 @@
               marginwidth="0"
             ></iframe>
           </div>
-          <div class="col-md-6 p-4">
+          <div class="col-md-6 p-4" data-aos="fade-up">
             <h3 class="text-center mb-3">Get in touch</h3>
             <div class="d-flex  flex-row flex-wrap justify-content-center">
               <a
@@ -413,6 +420,11 @@
             <i class="fab fa-instagram"></i>
           </a>
         </div>
+        <div>
+          <a target="_blank" href="https://www.dropbox.com/s/j8hhuadmyv5iw2k/Rodriguez%20Efren%20Jr%20%20D%20-%20CURRICULUM%20VITAE.pdf?dl=0" class="btn btn-secondary btn-sm mt-4"
+              >Download CV <i class="far fa-file"></i>
+            </a>
+        </div>
         <!-- <div class="p-3 text-center">
           This website is for educational purposes only.
         </div> -->
@@ -438,5 +450,10 @@
       src="https://kit.fontawesome.com/b73daadc47.js"
       crossorigin="anonymous"
     ></script>
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

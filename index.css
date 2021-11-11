@@ -27,6 +27,9 @@ font-family: 'Sorts Mill Goudy', serif;
 /*fonts*/
 body {
   font-family: "Barlow", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
 }
 
 h1,
@@ -121,8 +124,12 @@ h3 {
 
 #intro-section .fab {
   font-size: 2rem;
-  /* color: darkgray; */
-  color: #FFA000;
+  color: darkgray;
+  /* color: #FFA000; */
+}
+
+#intro-section .btn {
+  background-color: #FFA000;
 }
 
 #project-section {
@@ -168,7 +175,8 @@ h3 {
 }
 
 #contact-section .fab {
-	color: #FF8F00;
+	/* color: #FF8F00; */
+  color: slategray;
 	font-size: 2rem;
 }
 
