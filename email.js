@@ -12,11 +12,7 @@ function sendEmail() {
   console.log(senderName);
   console.log(messageBody);
 
-  if (
-    senderEmail !== "" &&
-    senderName !== "" &&
-    messageBody !== ""
-  ) {
+  if (senderEmail !== "" && senderName !== "" && messageBody !== "") {
     Email.send({
       SecureToken: "fc250b0d-038a-4119-87a7-7f6c169bd222 ",
       To: "efrenjr.rodriguez@gmail.com",
